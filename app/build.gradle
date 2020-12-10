@@ -26,5 +26,9 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'CompilerWorks.App'
+    mainClass = 'CompilerWorks.NQueens'
+}
+
+run {
+ standardInput = System.in
 }
